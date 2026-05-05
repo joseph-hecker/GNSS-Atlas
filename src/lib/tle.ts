@@ -14,7 +14,7 @@ export interface TleSet {
 
 const CELESTRAK_URL =
   'https://celestrak.org/NORAD/elements/gp.php?GROUP=gps-ops&FORMAT=tle';
-const FALLBACK_URL = '/tles/gps-ops.fallback.tle';
+const FALLBACK_URL = `${import.meta.env.BASE_URL}tles/gps-ops.fallback.tle`;
 const CACHE_KEY = 'gnss-atlas:tle:gps-ops:v2';
 const CACHE_TTL_MS = 6 * 60 * 60 * 1000;
 
