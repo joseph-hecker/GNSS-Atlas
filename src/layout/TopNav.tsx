@@ -11,9 +11,6 @@ export default function TopNav() {
           <div className="text-lg font-semibold tracking-tight">
             <span className="text-sky-400">GNSS</span> Atlas
           </div>
-          <span className="hidden sm:block text-xs text-slate-500">
-            See where the satellites are. See how the map lies.
-          </span>
         </div>
         <nav className="flex items-center gap-1">
           <NavLink
