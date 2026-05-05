@@ -6,6 +6,10 @@ dist/
 dist-ssr/
 *.local
 
+# typescript build cache
+.tscache/
+*.tsbuildinfo
+
 # logs
 npm-debug.log*
 yarn-debug.log*
