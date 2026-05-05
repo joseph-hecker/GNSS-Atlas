@@ -14,6 +14,7 @@ pnpm-debug.log*
 lerna-debug.log*
 
 # editor / OS
+.cursor/
 .vscode/*
 !.vscode/extensions.json
 .idea/
