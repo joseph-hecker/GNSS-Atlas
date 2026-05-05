@@ -1,4 +1,4 @@
-# GNSS Atlas
+# GNSS Atlas ([Go to site](https://joseph-hecker.github.io/GNSS-Atlas/sky))
 
 An educational, browser-only single-page app for exploring two things most digital maps quietly hide:
 
